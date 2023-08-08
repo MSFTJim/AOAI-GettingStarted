@@ -8,6 +8,7 @@ docker run -p 6333:6333 \
    -v $(pwd)/qdrant_storage:/qdrant/storage \
    qdrant/qdrant
 
+-- note: run command below from folder where storage exists "VectorDB"
 docker run -p 6333:6333 -v $(pwd)/qdrant_storage:/qdrant/storage qdrant/qdrant
 
 http://localhost:6333
